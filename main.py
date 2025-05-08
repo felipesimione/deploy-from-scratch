@@ -16,5 +16,3 @@ def ola_mundo():
 @app.get("/produtos")
 def listar_produtos():
     return produtos
-
-print("teste")
