@@ -11,7 +11,7 @@ produtos: List[Dict[str, str]] = [
 
 @app.get("/")
 def ola_mundo():
-    return {"message": "Olá, mundo!"}
+    return {"message": "Olá, pessoal!"}
 
 @app.get("/produtos")
 def listar_produtos():
